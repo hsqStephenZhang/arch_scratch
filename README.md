@@ -15,3 +15,6 @@ cd ZSH_Install-master
 
 ## oh-my-zsh主题查看
 https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+
+## 插件配置，可以自定义
+plugins=(zsh-autosuggestions zsh-syntax-highlighting z cp extract cargo rust rustup golang python pip)
