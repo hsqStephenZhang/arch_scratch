@@ -30,7 +30,7 @@ function InstallPlugins(){
     git clone https://hub.fastgit.org/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     git clone https://hub.fastgit.org/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-    echo 'plugins=(zsh-autosuggestions zsh-syntax-highlighting z cp extract cargo rust rustup golang python pip)' >> ~/.zshrc
+    echo 'plugins=(zsh-autosuggestions zsh-syntax-highlighting z cp extract python)' >> ~/.zshrc
 }
 
 function InstallSF() {
