@@ -32,14 +32,10 @@ reoot -f
 ## Zsh update
 
 ```bash
-wget https://github.com/FanhuaCloud/ZSH_Install/archive/master.zip
-unzip master.zip
-cd ZSH_Install-master
+git clone https://github.com/hsqStephenZhang/arch_scratch.git
+cd arch_scratch
 ./zsh.sh
 ```
-
-## 安装完成预览
-![](https://s1.ax1x.com/2018/02/03/9Z7FaT.png)
 
 ## oh-my-zsh主题查看
 https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
